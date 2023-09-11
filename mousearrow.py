@@ -1,7 +1,7 @@
 import winreg
 import ctypes,time
 
-" a library for changing mouse pointer picture to user selected image"
+" a library for changing mouse pointer image to user selected image"
 
 
 class mousearrow:
