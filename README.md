@@ -2,6 +2,6 @@
 change mouse arrow image to user selected image from python in windows
 
 # install
-download mousearrow.py into folder of your code the use 
+download mousearrow.py into folder of your code 
    >import mousearrow
    
