@@ -11,7 +11,7 @@ download mousearrow.py into folder of your code
   ```
     import mousearrow
 
-    test_image = "C:\\path\\example.cur"  #image must be in .cur format.try online .png to .cur converter
+    test_image = "C:\\path\\example.cur"
     arrow =mousearrow.Mousearrow(test_image)
     arrow.setpicture()
 
