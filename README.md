@@ -12,5 +12,7 @@ download mousearrow.py into folder of your code
     test_image = "%SYSTEMROOT%\\Cursors\\aero_helpsel.cur"
     arrow =mousearrow.mousearrow(test_image)
     arrow.setpicture()
+
+    # to reset default image call ""arrow.reset()""
   ```
    
