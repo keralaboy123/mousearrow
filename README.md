@@ -13,7 +13,8 @@ download mousearrow.py into folder of your code
     arrow =mousearrow.Mousearrow(test_image)
     arrow.setpicture()
 
-    # to reset default image call ""arrow.reset()""
+    # to reset default image call
+       ""arrow.reset()""
   ```
 
    ### lowlevel method _setpicture
