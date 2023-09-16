@@ -5,14 +5,14 @@ it uses winreg and ctypes
 
 # install
 download mousearrow.py into folder of your code 
-   >import mousearrow
+   
 
 # usage
   ```
-    import mousearrow
+    from mousearrow import Mousearrow
 
     test_image = "C:\\path\\example.cur"
-    arrow =mousearrow.Mousearrow(test_image)
+    arrow = Mousearrow (test_image)
     arrow.setpicture()
 
     # to reset default image call
@@ -21,13 +21,15 @@ download mousearrow.py into folder of your code
 
    ### lowlevel method _setpicture
   ```
-       import mousearrow
+       from mousearrow import Mousearrow
        test_image = "%SYSTEMROOT%\\Cursors\\aero_helpsel.cur"
-       arrow =mousearrow.Mousearrow()
+       arrow = Mousearrow()
        arrow._setpicture(test_image)
   ```
      
- we can set key name of registry key like this
+ we can set registry key like this."hand" means change picture of hand option. 
+ its avaiable when moving mouse over hyperlinks
+ same way we can blinking change cursor icon. just pass "Ibeam" as key
  
   ```
         arrow._setpicture(test_image,key="Hand")
