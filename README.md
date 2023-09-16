@@ -1,6 +1,6 @@
 # mousearrow
-change mouse arrow image to user selected image from python in windows
-it uses winreg and ctypes
+change icon of mouse arrow to user selected image from python in windows
+it uses winreg and ctypes internaly
 
 
 # install
