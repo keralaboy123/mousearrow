@@ -1,5 +1,5 @@
 # mousearrow
-change icon of mouse arrow to user selected image from python in windows
+change icon of mouse arrow to user selected image from python in windows.
 it uses winreg and ctypes internaly
 
 
@@ -11,7 +11,7 @@ download mousearrow.py into folder of your code
   ```
     from mousearrow import Mousearrow
 
-    test_image = "C:\\path\\example.cur"
+    test_image = "C:\\path\\example.cur"  #image must be in .cur format
     arrow = Mousearrow (test_image)
     arrow.setpicture()
 
