@@ -29,7 +29,7 @@ class Mousearrow:
         self._setpicture(self.arrow)
 
     def setpicture_all(self):
-        """" oopen registry key ,make changes and closes finaly updating ui"""
+        """" oopen registry key ,make changes and close. finaly update ui"""
         self._setpicture(self.arrow, "Arrow")
         self._setpicture(self.hand,"Hand")
         self._setpicture(self.text, "IBeam")
