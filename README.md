@@ -27,10 +27,15 @@ download mousearrow.py into folder of your code
        arrow._setpicture(test_image)
   ```
      
- we can set registry key like this."hand" means change picture of hand option. 
- its avaiable when moving mouse over hyperlinks
- same way we can blinking change cursor icon. just pass "Ibeam" as key
- 
+ we can set registry key like this.
   ```
         arrow._setpicture(test_image,key="Hand")
   ```
+"hand" means change icon of hand arrow
+ its avaiable when moving mouse over hyperlinks
+ same way we can change blinking  cursor icon. just pass "Ibeam" as key
+ these keys are used by windows internaly.
+ 
+ below is registry path to these settings.just browse it by registry editor 
+   registry > hkey current user>controllpanel>cursors
+ 
