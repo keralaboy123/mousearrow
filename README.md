@@ -15,7 +15,7 @@ download mousearrow.py into folder of your code
     arrow = Mousearrow (test_image)
     arrow.setpicture()
 
-    # to reset default image call
+    # to reset default icons jus call
     arrow.reset()
   ```
 
@@ -31,11 +31,13 @@ download mousearrow.py into folder of your code
   ```
         arrow._setpicture(test_image,key="Hand")
   ```
-"hand" means change icon of hand arrow
- its avaiable when moving mouse over hyperlinks
- same way we can change blinking  cursor icon. just pass "Ibeam" as key
- these keys are used by windows internaly.
+"hand" means change icon of hand arrow.
+ it is shown to user when moving mouse over hyperlinks
  
- below is registry path to these settings.just browse it by registry editor 
-   registry > hkey current user>controllpanel>cursors
+ same way we can change blinking  cursor icon. just pass "Ibeam" as key
+ 
+ these keys are used by windows internaly.
+ below is registry path to these settings.just browse it by registry editor for better understanding
+ 
+     ``` Computer\HKEY_CURRENT_USER\Control Panel\Cursors```
  
