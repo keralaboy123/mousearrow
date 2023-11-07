@@ -1,6 +1,6 @@
 # mousearrow
-change icon of mouse arrow to user selected image by python in windows.
-it uses winreg and ctypes internaly
+change icon of mouse arrow to user selected image by python in windows.  
+it uses winreg and ctypes internaly  
 credits : stackoverflow answer
 
 # install
@@ -31,7 +31,7 @@ download mousearrow.py into folder of your code
   ```
         arrow._setpicture(test_image,key="Hand")
   ```
-"hand" means change icon of hand arrow.
+"hand" means change icon of hand arrow.  
  it is shown to user when moving mouse over hyperlinks
  
  same way we can change blinking  cursor icon. just pass "Ibeam" as key
